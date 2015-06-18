@@ -1,0 +1,188 @@
+.horizontal {
+	text-align: center;
+}
+
+.horizontal > * {
+	display: inline-block;
+	vertical-align: top;
+	margin: 25px;
+	text-align: left;
+}
+
+.diffhorizontal {
+	text-align: center;
+}
+
+.diffhorizontal > * {
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px;
+	text-align: left;
+}
+
+.vertical {
+	text-align: center;
+	height: 200px;
+	line-height: 200px;
+}
+
+.vertical > * {
+	display: inline-block;
+	margin: 25px;
+	vertical-align: top;
+}
+
+.diffvertical {
+	text-align: center;
+	height: 300px
+	line-height: 300px;
+}
+
+.diffvertical > * {
+	display: inline-block;
+	margin: 30px;
+	vertical-align: top;
+}
+
+.change > * {
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+	text-align: left;
+}
+
+.button-size {
+	background-color: blue;
+	color: black;
+	font: bold 50% Arial;
+	border: 1px solid black;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 15px; 
+}
+
+.button-size:hover {
+	background-color: red;
+}
+
+.button-small {
+	padding: 5px 8px;
+	font-size: 10px;
+}
+
+.button-large {
+	padding: 20px 50px;
+	font-size: 20px;
+}
+
+.button-link {
+	text-decoration: none;
+}
+
+.nav-menu {
+	background-color: green;
+	text-align: center;
+	height: 50px;
+}
+
+.nav-menu-list > * {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	padding: 20px 40px;
+}
+
+.nav-menu-link {
+	text-decoration: none;
+}
+
+.nav-menu-link:hover {
+	background-color: yellow;
+}
+
+.pagination > * {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	padding: 5px 10px;
+	margin: 5px;
+	color: blue;
+	border: 1px solid blue;
+	border-width: 0 0 2px 0;
+}
+
+.pagination-link {
+	text-decoration: none;
+}
+
+.pagination-list:hover {
+	background-color: turquoise;
+}
+
+.pagination-disabled {
+	color: grey;
+	border-bottom: grey 2px solid;
+}
+
+.remove-border {
+	border-bottom: none;
+	border-color: none;
+}
+
+.user-comments {
+	clear: left;
+	display: inline-block;
+}
+
+.userpic {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.comments {
+	overflow: hidden;
+}
+
+.last-comment { 
+	margin-left: 85px;
+}
+
+.tabs {
+	list-style: none;
+	padding-left: 10px;
+}
+.tabs > li {
+	display: inline-block;
+}
+
+.tab {
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 8px 8px 0 0;
+	border: solid 1px #aad;
+	margin: 0;
+	position: relative;
+	top: 1px;
+	text-decoration: none;
+}
+
+.tabs {
+	margin: 0;
+}
+
+.tab-active {
+	border-bottom-color: #fff;
+}
+
+.tab-content {
+	border-radius: 5px;
+	border: solid 1px #aad;
+	width: 50%;
+}
+
+}
